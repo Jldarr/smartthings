@@ -57,7 +57,7 @@ def BISettings() {
             input "port", "number", title: "BI Webserver Port (81?)", required:true, default:81
             input "username", "string", title: "BI Username", required: true
             input "password", "string", title: "BI Password", required: true
-            paragraph "Currently, BI only allows Admin Users to toggle profiles."
+            paragraph "Currently, BI only allows Admin Users to toggle profiles. External public hosts only."
         }
     }
 }
